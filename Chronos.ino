@@ -163,7 +163,7 @@ void setup(){
   pinMode(Pin_SpeakJetSerial,OUTPUT);
   SerialSpeakjet.begin(9600);
   //delay(1000);
-  //SerialSpeakjet.print(HelloMyNameisClonos);//delay(3000);
+  //SerialSpeakjet.print(Hello);//delay(3000);
   // Setup temperature and light sensors
   pinMode(Pin_Temperature,INPUT);pinMode(Pin_LightLevel,INPUT);
   analogReference(INTERNAL); // set volt ref to 1.1v
